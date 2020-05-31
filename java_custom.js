@@ -1,16 +1,16 @@
-const open = document.querySelector('.open');
-const background =document.querySelector('.background');
-const close = document.querySelector('.close');
-const popup = document.querySelector('.popup');
-
-open.addEventListener('click',() => popup.classList.add('popup-open'));
-background.addEventListener('click',() => popup.classList.remove('popup-open'));
-close.addEventListener('click',() => popup.classList.remove('popup-open'));
-
-
-
 
 $(document).ready(function(){
+
+  // POPUP
+      $(".open").click(function () {
+        $(".popup").fadeIn(500);
+    });
+      
+      $(".background, .close").click(function () {
+        $(".popup").fadeOut(500);
+    });
+
+    // SLIDER
     $('.slider-for').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -28,7 +28,4 @@ $(document).ready(function(){
         focusOnSelect: true,
         centerPadding:'0',
       });
-
-      
-
   });
