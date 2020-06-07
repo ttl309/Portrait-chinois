@@ -175,6 +175,7 @@ body {
 
 .PortraitChinois span {
   font-family: 'Libre Baskerville', serif;
+  font-weight: 400;
   position: relative;
   top: 4vh;
 }
@@ -259,11 +260,12 @@ main {
 
 .text-top h1 {
   font-family: 'Libre Baskerville', serif;
+  font-weight: 400;
+  font-style: normal;
   font-size: 2rem;
   text-align: center;
   margin: 30px;
   color: #7C7C7C;
-  font-weight: lighter;
 }
 
 
@@ -273,8 +275,6 @@ main {
   display: inline-block;
   width: 100%;
   height: 100%;
-
-
 }
 
 svg {
@@ -305,6 +305,8 @@ svg {
 
 .contenu p {
   font-family: roboto, sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .titre {
@@ -340,7 +342,6 @@ footer {
 }
 
 footer p {
-
   font-family: roboto, sans-serif;
   font-weight: 200;
   font-style: normal;
